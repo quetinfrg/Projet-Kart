@@ -82,6 +82,7 @@ void loop() {
 		
 		Vitesse = (unsigned char) ((float) NbDetectionParSec * 1.8f * DIAMETRE_ROUE_M);
 		
+		
 		MemoCountDemiTour = tempCount;
 	}
 }
