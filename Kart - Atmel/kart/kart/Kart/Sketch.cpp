@@ -36,6 +36,8 @@
   http://www.arduino.cc/en/Tutorial/AnalogInput
 */
 
+#include "EnableInterrupt.h"
+
 #define INPUT_CAPTEUR_VITESSE		4									// Entrée dédiée au capteur de vitesse
 #define DIAMETRE_ROUE_MM			866									// diameter roue en mm
 #define DIAMETRE_ROUE_M				(float) (DIAMETRE_ROUE_MM / 1000)	// diameter roue en m 
@@ -43,6 +45,7 @@
 
 volatile unsigned char CountDemiTour=0;
 
+unsigned char Vitesse = 0;
 unsigned char MemoCountDemiTour=0;
 unsigned char NbDetectionParSec=0;
 unsigned long CountSeconde = 0;
@@ -59,10 +62,10 @@ void setup() {
 	Serial.begin(9600);
 	
 	// Configure input en pull up
-	pinMode(CAPTEUR_VITESSE, INPUT);
+	pinMode(INPUT_CAPTEUR_VITESSE, INPUT);
 	
 	// Configure interruption
-	enableInterrupt(CAPTEUR_VITESSE, CAPTEUR_INT, RISING);
+	enableInterrupt(INPUT_CAPTEUR_VITESSE, CAPTEUR_INT, RISING);
 }
 
 void loop() {
