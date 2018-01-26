@@ -67,7 +67,7 @@ void setup() {
 }
 
 // Fonction permettant le calcul de la vitesse en fonction du nombre d'impulsion par secondes
-void Lecture_Vitesse (void)
+void Lecture_Vitesse ()
 {
   char tempCount = 0;
   
