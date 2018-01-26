@@ -174,7 +174,7 @@ void TensionBatterie ()
   {
     Segment[i] = false;
 
-    if (Batt[0] > pourcentage) {   Segment[i] = true;  }
+    if (Batt_min > pourcentage) {   Segment[i] = true;  }
 
     pourcentage -= 10.0f;
 
