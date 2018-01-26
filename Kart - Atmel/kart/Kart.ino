@@ -29,9 +29,9 @@
 
 #include "EnableInterrupt.h"
 
-#define INPUT_CAPTEUR_VITESSE    4                 // Entrée dédiée au capteur de vitesse
-#define DIAMETRE_ROUE_MM      866.0f                // diameter roue en mm
-#define DIAMETRE_ROUE_M       (float) ((float)DIAMETRE_ROUE_MM / 1000.0f) // diameter roue en m 
+#define INPUT_CAPTEUR_VITESSE    4                      // Entrée dédiée au capteur de vitesse
+#define DIAMETRE_ROUE_MM    866.0f                    // diameter roue en mm
+#define DIAMETRE_ROUE_M     (float) ((float)DIAMETRE_ROUE_MM / 1000.0f) // diameter roue en m
 
 
 volatile unsigned char CountDemiTour=0;
@@ -39,58 +39,162 @@ volatile unsigned char CountDemiTour=0;
 unsigned char Vitesse = 0;
 unsigned char MemoCountDemiTour=0;
 unsigned char NbDetectionParSec=0;
+boolean Segment[10];
 
 unsigned long TempsEcoule = 0;
-unsigned long CountSeconde = 0;
+unsigned long CountSeconde1 = 0;
+unsigned long CountSeconde2= 0;
 float NbTourParSec = 0;
 unsigned int NbTourParHeure = 0;
 
+// Fonction d'interruption correspondant au passage de l'état bas à l'état haut de l'entrée liée au capteur de vitesse
 void CAPTEUR_INT (void)
 {
-  CountDemiTour++;  
-  //Serial.println(CountDemiTour);
+  CountDemiTour++;
 }
 
+// Fonction d'initialisation pour le microcontrôleur
 void setup() {
-  // start serial connection
+  
+  // Initialise la liaison série à 9600 bauds
   Serial.begin(9600);
   
-  // Configure input en pull up
+  // Configure l'entrée logique dédiée à la récupération du capteur de vitesse en entrée pull up (mise à 1 par défault)
   pinMode(INPUT_CAPTEUR_VITESSE, INPUT_PULLUP);
   
-  // Configure interruption
+  // Configure l'interruption qui se déclenchera à chaque fois que l'entrée capteur passe de l'état bas à l'état haut
   enableInterrupt(INPUT_CAPTEUR_VITESSE, CAPTEUR_INT, RISING);
 }
 
-void loop() {
+// Fonction permettant le calcul de la vitesse en fonction du nombre d'impulsion par secondes
+void Lecture_Vitesse (void)
+{
   char tempCount = 0;
   
-  if ((millis() - CountSeconde) > 1000)
+  tempCount = CountDemiTour;
+  TempsEcoule ++;
+
+  Serial.print(TempsEcoule);
+  Serial.print(", ");
+
+  NbDetectionParSec = (tempCount - MemoCountDemiTour);
+
+  // Calcul détaillé
+  //NbTourParSec = (float) (NbDetectionParSec / 2);
+  //NbTourParHeure = (NbTourParSec * 3600);   // tour/heure
+  //Vitesse = NbTourParHeure * DIAMETRE_ROUE_M; // m/heure
+  //Vitesse = Vitesse / 1000; //km/heure
+
+  // Calcul optimisé
+  Vitesse = (unsigned char) ((float) NbDetectionParSec * 1.8f * DIAMETRE_ROUE_M);
+
+  Serial.print(Vitesse);
+  Serial.println(", ");
+
+  MemoCountDemiTour = tempCount;  
+}
+
+void TensionBatterie ()
+{
+  float batt;          //la valeur finale qui contiendra la valeur de la batterie
+  float ten_mes;        //valeur qui contiendra la valeur de la tension mesurée à l'instant t
+  int ten_crit;        //valeur booléene qui sera mise à un si la tension descends en dessous de ten_min
+  int surcharge;        //valeur booléene qui sera mise à un si la tension descends en dessus de ten_max
+  float ten_min;       //cf surcharge
+  float ten_max;      //cf ten_crit
+  float differentiel;  //valeur intermediaire pour le calcul de batt
+  float inter1;
+  float inter2;
+  float pourcentage;
+  
+  float Vbat[4];
+  float Batt[4];
+  float Batt_min;
+  int   i;
+  
+  ten_crit = 0;
+  surcharge = 0;
+  //ten_min =11.3;
+  ten_min =1;
+  //ten_max = 15.0;
+  ten_max =4;
+
+  // On boucle sur les 4 batteries
+  for (i = 0; i < 4; i ++)
   {
-    tempCount = CountDemiTour;
-    TempsEcoule ++;
+    // On récupére la valeur analogique correspondant à la batterie testée
+    switch (i)
+    {
+      case 0: Vbat[i] = analogRead(A1); break;
+      case 1: Vbat[i] = analogRead(A2); break;
+      case 2: Vbat[i] = analogRead(A3); break;
+      case 3: Vbat[i] = analogRead(A4); break;
+    }
+    
+    // Conversion valeur digitale (0-1023) vers analogique (0-5V)
+    Vbat[i] = Vbat[i] * 5.0f / 1023.0f;
+    
+    //Serial.println(Vbat[i]);
 
-    Serial.print(TempsEcoule);
-    Serial.print(", ");
+    // Vérifie si la batterie est en-dessous du seuil critique
+    if (Vbat[i]<ten_min)
+    {
+      ten_crit =1;
+      //Serial.println("la tension atteint un niveau critique! \nS'arreter d'urgence!!");
+    }
     
-    CountSeconde = millis();
-    NbDetectionParSec = (tempCount - MemoCountDemiTour);
+    // Vérifie si la batterie est en surcharge
+    if (Vbat[i]>ten_max)
+    {
+      surcharge =1;
+      //Serial.println("la tension atteint un niveau critique! \nDebrancher la prise d'urgence!!");
+    }
+    
+    // Si la batterie n'est ni en surcharge ni au niveau critique on affiche le niveau en %
+    if ((surcharge != 1) && (ten_crit != 1))
+    {
+      inter1 = Vbat[i]-ten_min;
+      inter2 = inter1/(ten_max-ten_min);
+      Batt[i] = inter2*100;
+    
+      //Serial.print("le niveau de batterie est de ");
+      //Serial.print(Batt[i]);
+      //Serial.println("%");
+    }
+  }
 
-    //Serial.print("NbDetectionParSec:");
-    //NbTourParSec = (float) (NbDetectionParSec / 2);
-    //NbTourParHeure = (NbTourParSec * 3600);   // tour/heure
-    //Vitesse = NbTourParHeure * DIAMETRE_ROUE_M; // m/heure
-    //Vitesse = Vitesse / 1000; //km/heure
-    
-    Vitesse = (unsigned char) ((float) NbDetectionParSec * 1.8f * DIAMETRE_ROUE_M);
-    //Serial.print("Vitesse: ");
-    
-    Serial.print(Vitesse);
-    Serial.println(", ");
-    //Serial.println(" km/h");
-    
-    
-    
-    MemoCountDemiTour = tempCount;
+  // On prend le niveau minimum des 4 batteries
+  Batt_min = min (Batt[0], Batt[1]);
+  Batt_min = min (Batt_min, Batt[2]);
+  Batt_min = min (Batt_min, Batt[3]);
+
+  pourcentage = 90.0f;
+  
+  for (i = 9; i >= 0; i --)
+  {
+    Segment[i] = false;
+
+    if (Batt[0] > pourcentage) {   Segment[i] = true;  }
+
+    pourcentage -= 10.0f;
+
+    Serial.print(Segment[i]);
+  }
+  Serial.println(";");
+}
+
+// Equivalent au main sur Arduino
+void loop() 
+{
+  if ((millis() - CountSeconde1) > 1000)
+  {
+    CountSeconde1 = millis();
+    Lecture_Vitesse();
+  }
+  
+  if ((millis() - CountSeconde2) > 500)
+  {
+    CountSeconde2 = millis();
+    TensionBatterie();
   }
 }

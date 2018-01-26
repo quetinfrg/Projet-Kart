@@ -1,27 +1,41 @@
 Archive member included to satisfy reference by file (symbol)
 
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              Sketch.o (__subsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                              Sketch.o (__ltsf2)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              Sketch.o (__divsf3)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
                               Sketch.o (__fixunssfsi)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
                               Sketch.o (__floatunsisf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o) (__fp_splitA)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o) (__fp_zero)
+                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                              Sketch.o (__gtsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
                               Sketch.o (__mulsf3)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
                               c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_inf)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_nan)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_pscA)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o) (__fp_pscB)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__fp_round)
 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                               Sketch.o (_ZN14HardwareSerial5writeEh)
 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
@@ -32,26 +46,14 @@ E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\lib
                               E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (_ZN5Print5writeEPKhj)
 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                               Sketch.o (millis)
+E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                              Sketch.o (analogRead)
 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                               Sketch.o (pinMode)
 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(abi.o)
                               E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__cxa_pure_virtual)
 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
                               E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o) (yield)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                              E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__subsf3)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                              E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__ltsf2)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                              E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__divsf3)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
-                              c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o) (__fp_cmp)
-c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                              E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__gtsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
                               E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o) (__unordsf2)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
@@ -59,7 +61,7 @@ c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/..
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
                               C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o (exit)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
-                              E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o) (__do_copy_data)
+                              Sketch.o (__do_copy_data)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
                               Sketch.o (__do_clear_bss)
 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_ctors.o)
@@ -84,24 +86,30 @@ Discarded input sections
                 0x00000000        0x2 Sketch.o
  .bss.NbTourParSec
                 0x00000000        0x4 Sketch.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
@@ -117,6 +125,21 @@ Discarded input sections
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
  .group         0x00000000        0x8 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .text          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .data          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
@@ -149,42 +172,22 @@ Discarded input sections
                 0x00000000        0x6 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5flushEv
                 0x00000000        0x2 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5writeEPKc
-                0x00000000       0x2a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEPK19__FlashStringHelper
                 0x00000000       0x48 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK6String
                 0x00000000       0x1c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEPKc
-                0x00000000        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEc
-                0x00000000        0xe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printERK9Printable
                 0x00000000       0x14 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .rodata.str1.1
-                0x00000000        0xf E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEv
-                0x00000000        0x8 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEPK19__FlashStringHelper
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK6String
-                0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEPKc
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEc
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnERK9Printable
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print11printNumberEmh
-                0x00000000       0x92 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEmi
-                0x00000000       0x1a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEhi
-                0x00000000        0xe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEhi
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print5printEji
-                0x00000000        0xc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEji
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEmi
@@ -197,12 +200,8 @@ Discarded input sections
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print7printlnEli
                 0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print10printFloatEdh
-                0x00000000      0x1b6 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text._ZN5Print5printEdi
                 0x00000000        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .text._ZN5Print7printlnEdi
-                0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .rodata._ZTV5Print
                 0x00000000        0xc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .text          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
@@ -212,6 +211,13 @@ Discarded input sections
  .text.delay    0x00000000       0x78 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .text.delayMicroseconds
                 0x00000000       0x16 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .text          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .data          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .bss           0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .text.analogReference
+                0x00000000        0x6 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .text.analogWrite
+                0x00000000       0xbe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
  .text          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .data          0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
  .bss           0x00000000        0x0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
@@ -252,46 +258,9 @@ Discarded input sections
  .debug_str     0x00000000      0x137 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .comment       0x00000000       0x31 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
  .debug_frame   0x00000000       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .text.avr-libc.fplib
-                0x00000000        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .text.avr-libc.fplib
-                0x00000000       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
- .text.avr-libc.fplib
-                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .text.avr-libc.fplib
-                0x00000000        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .text.avr-libc.fplib
-                0x00000000       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
- .text.avr-libc.fplib
-                0x00000000       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
- .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
- .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
- .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
- .text.avr-libc.fplib
-                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
- .text.avr-libc.fplib
-                0x00000000        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
  .text          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
  .data          0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
  .bss           0x00000000        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
@@ -518,7 +487,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xec4
+.text           0x00000000     0x15b8
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -640,111 +609,184 @@ END GROUP
                 0x000004ec                __vector_5
  .text.setup    0x000005ce       0x26 Sketch.o
                 0x000005ce                setup
- .text.loop     0x000005f4       0x88 Sketch.o
-                0x000005f4                loop
+ .text._Z15Lecture_Vitessev
+                0x000005f4       0x9c Sketch.o
+                0x000005f4                _Z15Lecture_Vitessev
+ .text._Z15TensionBatteriev
+                0x00000690       0xe8 Sketch.o
+                0x00000690                _Z15TensionBatteriev
+ .text.loop     0x00000778       0x92 Sketch.o
+                0x00000778                loop
  .text.avr-libc.fplib
-                0x0000067c       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x0000067c                __fixunssfsi
+                0x0000080a        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x0000080a                __subsf3
+                0x0000080c                __addsf3
  .text.avr-libc.fplib
-                0x000006da       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x000006da                __floatunsisf
-                0x000006de                __floatsisf
+                0x00000818       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x0000083a                __addsf3x
  .text.avr-libc.fplib
-                0x00000754       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00000754                __fp_split3
-                0x00000764                __fp_splitA
+                0x000008e4        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x000008e4                __nesf2
+                0x000008e4                __eqsf2
+                0x000008e4                __cmpsf2
+                0x000008e4                __ltsf2
+                0x000008e4                __lesf2
  .text.avr-libc.fplib
-                0x00000798        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x00000798                __fp_zero
-                0x0000079a                __fp_szero
+                0x000008ee        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x000008ee                __divsf3
  .text.avr-libc.fplib
-                0x000007a6        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x000007a6                __mulsf3
+                0x000008f6       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00000916                __divsf3x
+                0x0000091c                __divsf3_pse
  .text.avr-libc.fplib
-                0x000007ae       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x000007cc                __mulsf3x
-                0x000007d2                __mulsf3_pse
+                0x000009d2       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x000009d2                __fixunssfsi
  .text.avr-libc.fplib
-                0x00000880        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00000880                __fp_inf
+                0x00000a30       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00000a30                __floatunsisf
+                0x00000a34                __floatsisf
  .text.avr-libc.fplib
-                0x0000088c        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x0000088c                __fp_nan
+                0x00000aaa       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00000aaa                __fp_cmp
  .text.avr-libc.fplib
-                0x00000892        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x00000892                __fp_pscA
+                0x00000af2        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00000af2                __fp_inf
  .text.avr-libc.fplib
-                0x000008a0        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x000008a0                __fp_pscB
+                0x00000afe        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00000afe                __fp_nan
  .text.avr-libc.fplib
-                0x000008ae       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x000008ae                __fp_round
+                0x00000b04        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00000b04                __fp_pscA
+ .text.avr-libc.fplib
+                0x00000b12        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00000b12                __fp_pscB
+ .text.avr-libc.fplib
+                0x00000b20       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00000b20                __fp_round
+ .text.avr-libc.fplib
+                0x00000b42       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00000b42                __fp_split3
+                0x00000b52                __fp_splitA
+ .text.avr-libc.fplib
+                0x00000b86        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00000b86                __fp_zero
+                0x00000b88                __fp_szero
+ .text.avr-libc.fplib
+                0x00000b94        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x00000b94                __gesf2
+                0x00000b94                __gtsf2
+ .text.avr-libc.fplib
+                0x00000b9e        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00000b9e                __mulsf3
+ .text.avr-libc.fplib
+                0x00000ba6       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00000bc4                __mulsf3x
+                0x00000bca                __mulsf3_pse
  .text._ZN14HardwareSerial9availableEv
-                0x000008d0       0x18 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000008d0                _ZN14HardwareSerial9availableEv
+                0x00000c78       0x18 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000c78                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x000008e8       0x1c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000008e8                _ZN14HardwareSerial4peekEv
+                0x00000c90       0x1c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000c90                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x00000904       0x28 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000904                _ZN14HardwareSerial4readEv
+                0x00000cac       0x28 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000cac                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x0000092c       0x1e E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000092c                _ZN14HardwareSerial17availableForWriteEv
+                0x00000cd4       0x1e E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000cd4                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x0000094a       0x1c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000094a                _Z14serialEventRunv
+                0x00000cf2       0x1c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000cf2                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x00000966       0x42 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000966                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00000d0e       0x42 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000d0e                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x000009a8       0x8e E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000009a8                _ZN14HardwareSerial5writeEh
+                0x00000d50       0x8e E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000d50                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x00000a36       0x44 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000a36                _ZN14HardwareSerial5flushEv
+                0x00000dde       0x44 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000dde                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x00000a7a       0xca E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00000a7a                _ZN14HardwareSerial5beginEmh
+                0x00000e22       0xca E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000e22                _ZN14HardwareSerial5beginEmh
  .text.__vector_18
-                0x00000b44       0x64 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000b44                __vector_18
+                0x00000eec       0x64 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000eec                __vector_18
  .text.__vector_19
-                0x00000ba8       0x4c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000ba8                __vector_19
+                0x00000f50       0x4c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000f50                __vector_19
  .text._Z17Serial0_availablev
-                0x00000bf4       0x14 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00000bf4                _Z17Serial0_availablev
+                0x00000f9c       0x14 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000f9c                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x00000c08       0x5a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00000fb0       0x5a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x00000c62        0x2 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000c62                initVariant
+                0x0000100a        0x2 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x0000100a                initVariant
  .text.startup.main
-                0x00000c64       0x1e E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00000c64                main
+                0x0000100c       0x1e E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x0000100c                main
  .text._ZN5Print5writeEPKhj
-                0x00000c82       0x54 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00000c82                _ZN5Print5writeEPKhj
+                0x0000102a       0x54 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000102a                _ZN5Print5writeEPKhj
+ .text._ZN5Print5writeEPKc
+                0x0000107e       0x2a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x0000107e                _ZN5Print5writeEPKc
+ .text._ZN5Print5printEPKc
+                0x000010a8        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010a8                _ZN5Print5printEPKc
+ .text._ZN5Print5printEc
+                0x000010ac        0xe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010ac                _ZN5Print5printEc
+ .text._ZN5Print7printlnEv
+                0x000010ba        0x8 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010ba                _ZN5Print7printlnEv
+ .text._ZN5Print7printlnEPKc
+                0x000010c2       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010c2                _ZN5Print7printlnEPKc
+ .text._ZN5Print11printNumberEmh
+                0x000010e6       0x92 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000010e6                _ZN5Print11printNumberEmh
+ .text._ZN5Print5printEmi
+                0x00001178       0x1a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001178                _ZN5Print5printEmi
+ .text._ZN5Print5printEhi
+                0x00001192        0xe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001192                _ZN5Print5printEhi
+ .text._ZN5Print5printEji
+                0x000011a0        0xc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000011a0                _ZN5Print5printEji
+ .text._ZN5Print10printFloatEdh
+                0x000011ac      0x1b6 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x000011ac                _ZN5Print10printFloatEdh
+ .text._ZN5Print7printlnEdi
+                0x00001362       0x24 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001362                _ZN5Print7printlnEdi
  .text.__vector_16
-                0x00000cd6       0x94 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000cd6                __vector_16
- .text.millis   0x00000d6a       0x18 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000d6a                millis
- .text.init     0x00000d82       0x76 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00000d82                init
- .text.pinMode  0x00000df8       0x78 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x00000df8                pinMode
+                0x00001386       0x94 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00001386                __vector_16
+ .text.millis   0x0000141a       0x18 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000141a                millis
+ .text.init     0x00001432       0x76 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00001432                init
+ .text.analogRead
+                0x000014a8       0x3a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                0x000014a8                analogRead
+ .text.pinMode  0x000014e2       0x78 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000014e2                pinMode
+ .text.avr-libc.fplib
+                0x0000155a        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                0x0000155a                __unordsf2
  .text.libgcc.div
-                0x00000e70       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00000e70                __udivmodsi4
- .text.libgcc   0x00000eb4        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x00000eb4                __tablejump2__
-                0x00000ec0                . = ALIGN (0x2)
+                0x00001564       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001564                __udivmodsi4
+ .text.libgcc   0x000015a8        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x000015a8                __tablejump2__
+                0x000015b4                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000ec0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00000ec0                _exit
-                0x00000ec0                exit
+ .fini9         0x000015b4        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x000015b4                _exit
+                0x000015b4                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -763,101 +805,112 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000ec0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x000015b4        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000ec4                _etext = .
+                0x000015b8                _etext = .
 
-.data           0x00800100       0x12 load address 0x00000ec4
+.data           0x00800100       0xca load address 0x000015b8
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
+ .data.analog_reference
+                0x00800100        0x1 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                0x00800100                analog_reference
  *(.gnu.linkonce.d*)
  *(.rodata)
  *(.rodata*)
+ .rodata.str1.1
+                0x00800101       0xa7 Sketch.o
  .rodata._ZTV14HardwareSerial
-                0x00800100       0x12 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00800100                _ZTV14HardwareSerial
+                0x008001a8       0x12 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x008001a8                _ZTV14HardwareSerial
+ .rodata.str1.1
+                0x008001ba        0xf E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  *(.gnu.linkonce.r*)
-                0x00800112                . = ALIGN (0x2)
-                0x00800112                _edata = .
-                0x00800112                PROVIDE (__data_end, .)
+                0x008001ca                . = ALIGN (0x2)
+ *fill*         0x008001c9        0x1 
+                0x008001ca                _edata = .
+                0x008001ca                PROVIDE (__data_end, .)
 
-.bss            0x00800112       0xe5
-                0x00800112                PROVIDE (__bss_start, .)
+.bss            0x008001ca       0xe9
+                0x008001ca                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.CountSeconde
-                0x00800112        0x4 Sketch.o
-                0x00800112                CountSeconde
+                0x008001ca        0x4 Sketch.o
+                0x008001ca                CountSeconde
+ .bss.TempsEcoule
+                0x008001ce        0x4 Sketch.o
+                0x008001ce                TempsEcoule
  .bss.NbDetectionParSec
-                0x00800116        0x1 Sketch.o
-                0x00800116                NbDetectionParSec
+                0x008001d2        0x1 Sketch.o
+                0x008001d2                NbDetectionParSec
  .bss.MemoCountDemiTour
-                0x00800117        0x1 Sketch.o
-                0x00800117                MemoCountDemiTour
- .bss.Vitesse   0x00800118        0x1 Sketch.o
-                0x00800118                Vitesse
+                0x008001d3        0x1 Sketch.o
+                0x008001d3                MemoCountDemiTour
+ .bss.Vitesse   0x008001d4        0x1 Sketch.o
+                0x008001d4                Vitesse
  .bss.CountDemiTour
-                0x00800119        0x1 Sketch.o
-                0x00800119                CountDemiTour
+                0x008001d5        0x1 Sketch.o
+                0x008001d5                CountDemiTour
  .bss._ZL13portSnapshotD
-                0x0080011a        0x1 Sketch.o
+                0x008001d6        0x1 Sketch.o
  .bss.fallingPinsPORTD
-                0x0080011b        0x1 Sketch.o
-                0x0080011b                fallingPinsPORTD
+                0x008001d7        0x1 Sketch.o
+                0x008001d7                fallingPinsPORTD
  .bss.risingPinsPORTD
-                0x0080011c        0x1 Sketch.o
-                0x0080011c                risingPinsPORTD
+                0x008001d8        0x1 Sketch.o
+                0x008001d8                risingPinsPORTD
  .bss._ZL13portSnapshotC
-                0x0080011d        0x1 Sketch.o
+                0x008001d9        0x1 Sketch.o
  .bss.fallingPinsPORTC
-                0x0080011e        0x1 Sketch.o
-                0x0080011e                fallingPinsPORTC
+                0x008001da        0x1 Sketch.o
+                0x008001da                fallingPinsPORTC
  .bss.risingPinsPORTC
-                0x0080011f        0x1 Sketch.o
-                0x0080011f                risingPinsPORTC
+                0x008001db        0x1 Sketch.o
+                0x008001db                risingPinsPORTC
  .bss._ZL13portSnapshotB
-                0x00800120        0x1 Sketch.o
+                0x008001dc        0x1 Sketch.o
  .bss.fallingPinsPORTB
-                0x00800121        0x1 Sketch.o
-                0x00800121                fallingPinsPORTB
+                0x008001dd        0x1 Sketch.o
+                0x008001dd                fallingPinsPORTB
  .bss.risingPinsPORTB
-                0x00800122        0x1 Sketch.o
-                0x00800122                risingPinsPORTB
+                0x008001de        0x1 Sketch.o
+                0x008001de                risingPinsPORTB
  .bss.portDFunctions
-                0x00800123       0x10 Sketch.o
-                0x00800123                portDFunctions
+                0x008001df       0x10 Sketch.o
+                0x008001df                portDFunctions
  .bss.portCFunctions
-                0x00800133        0xc Sketch.o
-                0x00800133                portCFunctions
+                0x008001ef        0xc Sketch.o
+                0x008001ef                portCFunctions
  .bss.portBFunctions
-                0x0080013f        0xc Sketch.o
-                0x0080013f                portBFunctions
+                0x008001fb        0xc Sketch.o
+                0x008001fb                portBFunctions
  .bss.functionPointerArrayEXTERNAL
-                0x0080014b        0x4 Sketch.o
-                0x0080014b                functionPointerArrayEXTERNAL
- .bss.pcmsk     0x0080014f        0x2 Sketch.o
-                0x0080014f                pcmsk
- .bss.Serial    0x00800151       0x9d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00800151                Serial
+                0x00800207        0x4 Sketch.o
+                0x00800207                functionPointerArrayEXTERNAL
+ .bss.pcmsk     0x0080020b        0x2 Sketch.o
+                0x0080020b                pcmsk
+ .bss.Serial    0x0080020d       0x9d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x0080020d                Serial
  .bss.timer0_fract
-                0x008001ee        0x1 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002aa        0x1 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .bss.timer0_millis
-                0x008001ef        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008001ef                timer0_millis
+                0x008002ab        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002ab                timer0_millis
  .bss.timer0_overflow_count
-                0x008001f3        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x008001f3                timer0_overflow_count
+                0x008002af        0x4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x008002af                timer0_overflow_count
  *(COMMON)
-                0x008001f7                PROVIDE (__bss_end, .)
-                0x00000ec4                __data_load_start = LOADADDR (.data)
-                0x00000ed6                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x008002b3                PROVIDE (__bss_end, .)
+                0x000015b8                __data_load_start = LOADADDR (.data)
+                0x00001682                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008001f7        0x0
+.noinit         0x008002b3        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x008001f7                _end = .
+                0x008002b3                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -906,6 +959,7 @@ END GROUP
  .comment       0x00000030       0x31 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
  .comment       0x00000030       0x31 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .comment       0x00000030       0x31 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .comment       0x00000030       0x31 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
  .comment       0x00000030       0x31 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
 .note.gnu.avr.deviceinfo
@@ -928,95 +982,104 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x2d0
+.debug_aranges  0x00000000      0x310
  *(.debug_aranges)
  .debug_aranges
-                0x00000000       0x70 Sketch.o
+                0x00000000       0x80 Sketch.o
  .debug_aranges
-                0x00000070       0x68 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00000080       0x68 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
  .debug_aranges
-                0x000000d8       0x48 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x000000e8       0x48 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .debug_aranges
-                0x00000120       0x30 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00000130       0x30 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
  .debug_aranges
-                0x00000150      0x100 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00000160      0x100 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
  .debug_aranges
-                0x00000250       0x48 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00000260       0x48 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
  .debug_aranges
-                0x00000298       0x38 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x000002a8       0x30 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_aranges
+                0x000002d8       0x38 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x7ede
+.debug_info     0x00000000     0x8395
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5f4 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_info    0x000005f4      0xb4c Sketch.o
- .debug_info    0x00001140     0x1e89 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_info    0x00002fc9     0x1b16 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_info    0x00004adf      0x237 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_info    0x00004d16     0x28ff E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_info    0x00007615      0x2cb E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_info    0x000078e0      0x5fe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_info    0x000005f4      0xd96 Sketch.o
+ .debug_info    0x0000138a     0x1e89 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_info    0x00003213     0x1b16 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_info    0x00004d29      0x237 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_info    0x00004f60     0x28ff E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_info    0x0000785f      0x2cb E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_info    0x00007b2a      0x26d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_info    0x00007d97      0x5fe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_abbrev   0x00000000     0x195a
+.debug_abbrev   0x00000000     0x1b1c
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x5a2 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_abbrev  0x000005a2      0x370 Sketch.o
- .debug_abbrev  0x00000912      0x432 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_abbrev  0x00000d44      0x3ce E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_abbrev  0x00001112      0x12d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_abbrev  0x0000123f      0x47a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_abbrev  0x000016b9      0x146 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_abbrev  0x000017ff      0x15b E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_abbrev  0x000005a2      0x3c7 Sketch.o
+ .debug_abbrev  0x00000969      0x432 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_abbrev  0x00000d9b      0x3ce E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_abbrev  0x00001169      0x12d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_abbrev  0x00001296      0x47a E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_abbrev  0x00001710      0x146 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_abbrev  0x00001856      0x16b E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_abbrev  0x000019c1      0x15b E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_line     0x00000000     0x1c51
+.debug_line     0x00000000     0x1f12
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x133 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_line    0x00000133      0x797 Sketch.o
- .debug_line    0x000008ca      0x426 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_line    0x00000cf0      0x28c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_line    0x00000f7c      0x165 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_line    0x000010e1      0x685 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_line    0x00001766      0x299 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_line    0x000019ff      0x252 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_line    0x00000133      0x849 Sketch.o
+ .debug_line    0x0000097c      0x426 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_line    0x00000da2      0x28c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_line    0x0000102e      0x165 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_line    0x00001193      0x685 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_line    0x00001818      0x299 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_line    0x00001ab1      0x20f E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_line    0x00001cc0      0x252 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_frame    0x00000000      0x984
+.debug_frame    0x00000000      0xa10
  *(.debug_frame)
- .debug_frame   0x00000000      0x254 Sketch.o
- .debug_frame   0x00000254      0x110 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_frame   0x00000364       0xe0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_frame   0x00000444       0x54 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_frame   0x00000498      0x3ac E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_frame   0x00000844       0xc4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_frame   0x00000908       0x7c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_frame   0x00000000      0x28c Sketch.o
+ .debug_frame   0x0000028c      0x110 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_frame   0x0000039c       0xe0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_frame   0x0000047c       0x54 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_frame   0x000004d0      0x3ac E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_frame   0x0000087c       0xc4 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_frame   0x00000940       0x54 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_frame   0x00000994       0x7c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
-.debug_str      0x00000000     0x2244
+.debug_str      0x00000000     0x233d
  *(.debug_str)
  .debug_str     0x00000000      0x208 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o
- .debug_str     0x00000208      0x695 Sketch.o
-                                0x6fc (size before relaxing)
- .debug_str     0x0000089d     0x12dc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_str     0x00000208      0x7b3 Sketch.o
+                                0x822 (size before relaxing)
+ .debug_str     0x000009bb     0x12dc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
                                0x15e4 (size before relaxing)
- .debug_str     0x00001b79       0xca E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_str     0x00001c97       0xca E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
                                0x1400 (size before relaxing)
- .debug_str     0x00001c43       0x37 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_str     0x00001d61       0x37 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
                                 0x2ac (size before relaxing)
- .debug_str     0x00001c7a      0x3df E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_str     0x00001d98      0x36c E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
                                0x123a (size before relaxing)
- .debug_str     0x00002059      0x162 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_str     0x00002104      0x162 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
                                 0x242 (size before relaxing)
- .debug_str     0x000021bb       0x89 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_str     0x00002266       0x74 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+                                0x246 (size before relaxing)
+ .debug_str     0x000022da       0x63 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
                                 0x2a7 (size before relaxing)
 
-.debug_loc      0x00000000     0x36f9
+.debug_loc      0x00000000     0x3930
  *(.debug_loc)
- .debug_loc     0x00000000      0xbb7 Sketch.o
- .debug_loc     0x00000bb7      0x482 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_loc     0x00001039      0x1b0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_loc     0x000011e9     0x1c87 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_loc     0x00002e70      0x28d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_loc     0x000030fd      0x5fc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_loc     0x00000000      0xcf0 Sketch.o
+ .debug_loc     0x00000cf0      0x482 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_loc     0x00001172      0x1b0 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_loc     0x00001322     0x1c87 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_loc     0x00002fa9      0x28d E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_loc     0x00003236       0xfe E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_loc     0x00003334      0x5fc E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -1036,15 +1099,16 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x00000000      0x2a8
+.debug_ranges   0x00000000      0x2d8
  *(.debug_ranges)
- .debug_ranges  0x00000000       0x78 Sketch.o
- .debug_ranges  0x00000078       0x58 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
- .debug_ranges  0x000000d0       0x38 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
- .debug_ranges  0x00000108       0x20 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
- .debug_ranges  0x00000128      0x120 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
- .debug_ranges  0x00000248       0x38 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
- .debug_ranges  0x00000280       0x28 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .debug_ranges  0x00000000       0x88 Sketch.o
+ .debug_ranges  0x00000088       0x58 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+ .debug_ranges  0x000000e0       0x38 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+ .debug_ranges  0x00000118       0x20 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(main.o)
+ .debug_ranges  0x00000138      0x120 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+ .debug_ranges  0x00000258       0x38 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+ .debug_ranges  0x00000290       0x20 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_analog.o)
+ .debug_ranges  0x000002b0       0x28 E:\mes documents\GitHub\Projet-Kart\Kart - Atmel\kart\kart\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
 
 .debug_macro
  *(.debug_macro)
