@@ -1,8 +1,5 @@
 ﻿/*Begining of Auto generated code by Atmel studio */
-#include <Arduino.h>
-
 /*End of auto generated code by Atmel studio */
-
 
 //Beginning of Auto generated function prototypes by Atmel Studio
 //End of Auto generated function prototypes by Atmel Studio
@@ -36,7 +33,11 @@
   http://www.arduino.cc/en/Tutorial/AnalogInput
 */
 
+#include <Arduino.h>
+#include <SPI.h>
 #include "EnableInterrupt.h"
+
+#defineLE       10 //Entree LE du MAX7961
 
 
 #define INPUT_CAPTEUR_VITESSE    4                      // Entrée dédiée au capteur de vitesse
@@ -65,13 +66,13 @@ void CAPTEUR_INT (void)
 
 // Fonction d'initialisation pour le microcontrôleur
 void setup() {
-	
+
 	// Initialise la liaison série à 9600 bauds
 	Serial.begin(9600);
-	
+
 	// Configure l'entrée logique dédiée à la récupération du capteur de vitesse en entrée pull up (mise à 1 par défault)
 	pinMode(INPUT_CAPTEUR_VITESSE, INPUT_PULLUP);
-	
+
 	// Configure l'interruption qui se déclenchera à chaque fois que l'entrée capteur passe de l'état bas à l'état haut
 	enableInterrupt(INPUT_CAPTEUR_VITESSE, CAPTEUR_INT, RISING);
 }
@@ -80,7 +81,7 @@ void setup() {
 void Lecture_Vitesse ()
 {
 	char tempCount = 0;
-	
+
 	tempCount = CountDemiTour;
 	TempsEcoule ++;
 
@@ -119,11 +120,11 @@ void TensionBatterie ()
 	float Batt[4];		//pourcentage de la valeur de la batterie
 	float Batt_min;
 	int   i;
-	
-	//plage dans laquelle le niveau de la batterie se trouve 
+
+	//plage dans laquelle le niveau de la batterie se trouve
 	//(la batterie est dans la 1ere si elle est comprise entre 0 et 10%)
 	int TrancheBatt;
-	
+
 	ten_crit = 0;
 	surcharge = 0;
 	//ten_min =11.3;
@@ -142,10 +143,10 @@ void TensionBatterie ()
 			case 2: Vbat[i] = analogRead(A3); break;
 			case 3: Vbat[i] = analogRead(A4); break;
 		}
-		
+
 		// Conversion valeur digitale (0-1023) vers analogique (0-5V)
 		Vbat[i] = Vbat[i] * 5.0f / 1023.0f;
-		
+
 		//Serial.println(Vbat[i]);
 
 		// Vérifie si la batterie est en-dessous du seuil critique
@@ -154,27 +155,122 @@ void TensionBatterie ()
 			ten_crit =1;
 			//Serial.println("la tension atteint un niveau critique! \nS'arreter d'urgence!!");
 		}
-		
+
 		// Vérifie si la batterie est en surcharge
 		if (Vbat[i]>ten_max)
 		{
 			surcharge =1;
 			//Serial.println("la tension atteint un niveau critique! \nDebrancher la prise d'urgence!!");
 		}
-		
+
 		// Si la batterie n'est ni en surcharge ni au niveau critique on affiche le niveau en %
 		if ((surcharge != 1) && (ten_crit != 1))
 		{
 			inter1 = Vbat[i]-ten_min;
 			inter2 = inter1/(ten_max-ten_min);
 			Batt[i] = inter2*100;
-			
-			
-			//détermination des tranches de la batterie 
-			if (0<Batt
-			
+
+		//on déclare la variable de tranche
+        int TrancheBatt;
+
+
+
+				//détermination des tranches de la batterie
+			switch Batt
+			{
+
+            case (0<Batt<10):
+                TrancheBatt = 0;
+                break;
+
+            case (10<Batt<20):
+                TrancheBatt = 1;
+                break;
+
+             case (20<Batt<30):
+                TrancheBatt = 2;
+                break;
+
+			 case (30<Batt<40):
+                TrancheBatt = 3;
+                break;
+
+			 case (40<Batt<50):
+                TrancheBatt = 4;
+                break;
+
+			 case (50<Batt<60):
+                TrancheBatt = 5;
+                break;
+
+			 case (60<Batt<70):
+                TrancheBatt = 6;
+                break;
+
+			 case (70<Batt<80):
+                TrancheBatt = 7;
+                break;
+
+			 case (80<Batt<90):
+                TrancheBatt = 8;
+                break;
+
+              case (90<Batt<100):
+                TrancheBatt = 9;
+                break;
+
+
+			//Nous allons maintenant programmer les leds du bargraphe en fonction des tranches
+
+			   switch TrancheBatt
+			{
+
+            case (0):
+                writeRegister(0x01);
+                break;
+
+            case (1):
+                writeRegister(0x02);
+                break;
+
+            case (2):
+                writeRegister(0x03);
+                break;
+
+            case (3):
+                writeRegister(0x04);
+                break;
+
+			case (4):
+                writeRegister(0x05);
+                break;
+
+			case (5):
+                writeRegister(0x06);
+                break;
+
+			case (6):
+                writeRegister(0x07);
+                break;
+
+			case (7):
+                writeRegister(0x08);
+                break;
+
+			case (8):
+                writeRegister(0x09);
+                break;
+
+            case (9):
+                writeRegister(0x01);
+                break;
+
+
+			}
+
+
 			//Serial.print("le niveau de batterie est de ");
-			//Serial.print(Batt[i]);
+			//Serial.print(TrancheBatt);
 			//Serial.println("%");
 		}
 	}
@@ -185,7 +281,7 @@ void TensionBatterie ()
 	Batt_min = min (Batt_min, Batt[3]);
 
 	pourcentage = 90.0f;
-	
+
 	for (i = 9; i >= 0; i --)
 	{
 		Segment[i] = false;
@@ -207,12 +303,33 @@ void loop()
 		CountSeconde1 = millis();
 		Lecture_Vitesse();
 	}
-	
+
 	if ((millis() - CountSeconde2) > 500)
 	{
 		CountSeconde2 = millis();
 		TensionBatterie();
 	}
+}
+
+//fonction configurant le MAX7961
+void setup() {
+    pinMode(LOAD, OUTPUT);
+    digitalWrite(LOAD, HIGH);
+    SPI.begin();
+    SPI.setBitOrder(MSBFIRST); // bits de poids fort en premier
+
+
+//fonction permettant de modifier les registres du MAX
+void writeRegister(byte thisRegister, byte thisValue) // Écrire dans un registre du MAX7219
+{
+  // Mettre l'entrée LOAD à l'état bas
+  digitalWrite(LOAD, LOW);
+
+  SPI.transfer(thisRegister); // Adresse du registre
+  SPI.transfer(thisValue); // Contenu du registre
+
+  // Basculer l'entrée LOAD à l'état haut pour verrouiller et transférer les données
+  digitalWrite(LOAD, HIGH);
 }
 
 
