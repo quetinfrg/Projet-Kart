@@ -30,14 +30,19 @@
 
 // Public Methods //////////////////////////////////////////////////////////////
 
+#define	FEEDBACK_TX				3	// PD3, pin5
+#define FEEDBACK_RX				4	// PD4, pin6
+
 /* default implementation: may be overridden */
 size_t Print::write(const uint8_t *buffer, size_t size)
 {
   size_t n = 0;
+  
   while (size--) {
     if (write(*buffer++)) n++;
     else break;
   }
+  
   return n;
 }
 
