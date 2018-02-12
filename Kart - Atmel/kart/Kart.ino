@@ -296,7 +296,7 @@ void AfficheInfosSerie()
   int i;
   
   Serial.println("----------------------------------");
-  Serial.print("Temps écoulé depuis le démarrage : ");
+  Serial.print("Temps ecoule depuis le demarrage : ");
   Serial.print(TempsEcoule);
   Serial.print("s");
   Serial.println(",\n");
@@ -316,7 +316,7 @@ void AfficheInfosSerie()
     else if (Batterie[i].Surcharge) { Serial.println(" a atteint sa charge max \nVeuillez stopper la charge\n");  }
     else
     {
-      Serial.print(" est à ");
+      Serial.print(" est a ");
       Serial.print(Batterie[i].Pourcentage);
       Serial.println("%\n");
     }
